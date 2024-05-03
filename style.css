@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header nav ul li a:hover {
+    color: #41e2da;
+}
+
+section.cabecalho {
+    padding: 40px 4%;
+}
+
+.flex {
+    display: flex;
+}
+
+section.cabecalho .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.cabecalho h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #41e2da;
+}
+
+.cabecalho p {
+    font-size: 20px;
+    color: #313332;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.fotop {
+    border: 3px solid #41e2da;
+    color: #41e2da;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.fotop img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto; 
+}
+
+.menu {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Nome, .sobre, .projetos{
+    visibility: hidden;
+}
+
+
+.Apresentação{
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.Subtitulo2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+section.sobre {
+    background-color: #41e2da;
+    padding: 50px;
+}
+
+.Linguagens-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    text-align: center;
+}
+
+
+.Linguagensf {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.LinguagensE{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.Linguagensf + ul li{
+
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.LinguagensE + ul li{
+
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.texto2 {
+    text-align: center;
+}
+
+.foto{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.foto-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.projetos {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.interface {
+    text-align: center;
+}
+
+.interface .Titulo {
+    font-size: 30px;
+    color: #41e2da;
+}
+
+.Subtitulo3 {
+    font-size: 20px;
+    color: #41e2da;
+}
+
+.projeto {
+    display: flex;
+    margin-top: 30px;
+}
+
+.imagem-container {
+    flex: 1;
+    text-align: center;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.conteudo .imagemSubtitulo {
+    font-size: 40px;
+    color: #41e2da;
+    margin-top: 0;
+}
+
+.conteudo p {
+    font-size: 20px;
+    color: #41e2da;
+    margin-top: 10px;
+}
+
+.rodape{
+    background-color: #68d6d1;
+    color:#ffffff;
+}
+
+.rodape .interface{
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape .interface .contato span{
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.rodapetitulo{
+    font-size: 30px;
+
+}
+
+.Subtitulo4{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.rodape .copyright{
+    text-align: center;
+    margin-top:25px;
+}
+
+.rodape .foto-container{
+    margin-top: 30px;
+
+}
+
