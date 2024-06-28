@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     project.innerHTML = `
                         <div class="imagem-container">
                             <a href="${repo.html_url}">
-                                <img src="Assets/${repo.name}.png" href="${repo.html_url} alt="${repo.name}">
+                                <img src="${repo.name}.png" href="${repo.html_url} alt="${repo.name}">
                             </a>
                         </div>
                         <div class="conteudo">
