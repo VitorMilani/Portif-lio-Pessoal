@@ -91,10 +91,6 @@ section.cabecalho .flex {
     font-size: 20px;
 }
 
-.Nome, .sobre, .projetos{
-    visibility: hidden;
-}
-
 
 .Apresentação{
     text-align: center;
@@ -185,17 +181,14 @@ section.sobre {
 
 .projeto {
     display: flex;
-    margin-top: 30px;
-}
-
-.imagem-container {
-    flex: 1;
-    text-align: center;
+    margin-top: 40px;
+    border: 2px solid #41e2da;
 }
 
 .imagem-container img {
     max-width: 100%;
     height: auto;
+    border: 2px solid #41e2da;
 }
 
 .conteudo {
@@ -212,6 +205,8 @@ section.sobre {
     font-size: 20px;
     color: #41e2da;
     margin-top: 10px;
+    margin: 30px;
+
 }
 
 .rodape{
